@@ -1,4 +1,4 @@
 title: Ramzy Bakir
-logo: git_headshot.png
+logo: '<img src="git_headshot.png" alt="Logo" style="border-radius: 50%; width: 150px; height: 150px;">'
 show_downloads: true
 theme: jekyll-theme-minimal
