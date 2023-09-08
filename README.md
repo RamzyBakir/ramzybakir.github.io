@@ -1,10 +1,10 @@
-# Data Scientist
+# Data Science Enthusiast
 
 #### Technical Skills: Python, R, Excel, PowerBI, SQL, C++
 
 ## Education							       		
-- B.S., Computing and Information Sciences	| Egypt University of Informatics (_November 2022 - Present_)	 			        		
-- H.S., French Baccalaureate | Lycée Simone de Beauvoir / Collège de la Salle  (September 2008 - July 2022_)
+- B.S. | Computing and Information Sciences	| Egypt University of Informatics (_November 2022 - Present_)	 			        		
+- H.S. | French Baccalaureate | Lycée Simone de Beauvoir / Collège de la Salle  (_September 2008 - July 2022_)
 
 ## Work Experience
 **RPA Business Analyst Intern @ Advansys ESC (_July 2023 - August 2023_)**
