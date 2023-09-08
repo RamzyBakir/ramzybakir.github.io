@@ -14,8 +14,7 @@
 - I spent a week observing and understanding each department in the company. At the end of the internship, we were required to present a project about the experience of 2 juries, which would be graded out of 100 points and contribute to our high school diploma grades. I successfully achieved a perfect score.
   
 ## Projects
-### Exploring Shark-Human Interactions in the MENA Region
-[Publication](https://nbviewer.org/github/RamzyBakir/Exploring-Shark-Human-Interactions-in-the-MENA-Region/blob/main/Exploring%20Shark-Human%20Interactions%20in%20the%20MENA%20Region.ipynb)
+### Exploring Shark-Human Interactions in the MENA Region [View NoteBook](https://nbviewer.org/github/RamzyBakir/Exploring-Shark-Human-Interactions-in-the-MENA-Region/blob/main/Exploring%20Shark-Human%20Interactions%20in%20the%20MENA%20Region.ipynb)
 
 
 In this MENA shark-human interaction data analysis, I harnessed Python and essential libraries like NumPy, seaborn, and matplotlib. By employing robust data manipulation, visualization, and cleaning techniques, I unearthed trends and insights within the Global Shark Attack File database. This approach not only facilitated pattern identification in shark attacks but also spotlighted critical aspects of the MENA region's safety measures and conservation strategies.
