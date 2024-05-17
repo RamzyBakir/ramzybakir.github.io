@@ -22,7 +22,6 @@ body {
     background-color:#f9fafb;
     height:fit-content;
     border-radius: 15px;
-    padding-bottom: 15px;
 }
 .main-bttn{
     color: #f0f0f0;
@@ -49,7 +48,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .subtitle, .location {
@@ -87,14 +86,6 @@ h2 {
     gap: 10px;
     justify-content: center;
 }
-
-    .skill {
-        background-color: #eff1ff;
-        color: #020af5;
-        padding: 5px 10px;
-        border-radius:15px;
-    }
-
 .contact-apps{
     text-decoration: none;
     color: #4b5563;
@@ -102,10 +93,15 @@ h2 {
     border-radius: 5px;
     font-size: 30px;
 }
-
 .contact-apps:hover{
     color: #020af5;
 }
+    .skill {
+        background-color: #eff1ff;
+        color: #020af5;
+        padding: 5px 10px;
+        border-radius:15px;
+    }
 
 .right-column {
     display:flex;
@@ -115,14 +111,12 @@ h2 {
     width: 75%;
     padding-left: 20px;
 }
-
 .content{
     display:flex;
     justify-content:center;
     flex-direction:row;
     flex-wrap: wrap;
 }
-
 .project {
     background-color: #fff;
     padding: 20px;
@@ -158,7 +152,70 @@ h2 {
     text-decoration: none;
     color: #4b5563;
 }
-
 .read-more:hover{
     color: #020af5;
 }
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .left-column {
+        width: 25%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 0;
+    }
+
+    .right-column {
+        width: 75%;
+        padding-left: 20px;
+    }
+
+    .content {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px; /* Add some margin to separate the columns */
+    }
+
+    .right-column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-column .profile-picture {
+        margin-left: 0;
+    }
+
+    .left-column .main-bttn {
+        display: block;
+        margin: 0 auto 25px;
+    }
+
+    .skills, .contacts {
+        justify-content: center;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
