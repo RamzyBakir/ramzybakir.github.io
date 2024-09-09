@@ -4,129 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramzy Bakir</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <div class="left-column">
-            <div class="profile">
-                <img src="images/newheadshot_circle.png" alt="Profile Picture" class="profile-picture">
-                <h1>Ramzy Bakir</h1>
-                <p class="subtitle">Data Scientist</p>
-                <p class="location">Based in Cairo, Egypt</p>
-                <div class="contacts">
-                    <a href="https://www.linkedin.com/in/ramzy-bakir/" class="contact-apps"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/RamzyBakir" class="contact-apps"><i class="fab fa-github"></i></a>
-                    <a href="https://www.kaggle.com/ramzybakir" class="contact-apps"><i class="fa-brands fa-kaggle"></i></a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ramzybakir.rsb@gmail.com" class="contact-apps"><i class="fa-solid fa-envelope"></i></a>
-                </div>
-                <a href="Ramzy Bakir Resume.pdf" download class="main-bttn">Download CV</a>
+        <header>
+            <h1>Ramzy Bakir</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="Ramzy Bakir Resume.pdf">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-                <h2>About me</h2>
-                <p class="about">
-                    Currently pursuing a Bachelor's degree in Computing and Information Sciences at EUI. Driven by a passion for data science, I'm actively seeking opportunities in this dynamic field. With significant work experience contributing to diverse projects and a commitment to continuous learning, I've undertaken various courses and earned certificates to enhance my skills. Fluent in English, French, and Arabic, with a good understanding of German, and equipped with a solid foundation in programming languages and data science tools, I am enthusiastic about bringing my expertise and energy to the field of data science.
-                </p>
-                <h2>Skills</h2>
-                <div class="skills">
-                    <span class="skill">Python</span>
-                    <span class="skill">R</span>
-                    <span class="skill">C++</span>
-                    <span class="skill">SQL</span>
-                    <span class="skill">Scala</span>
-                    <span class="skill">NumPy</span>
-                    <span class="skill">Pandas</span>
-                    <span class="skill">Seaborn</span>
-                    <span class="skill">Matplotlib</span>
-                    <span class="skill">Scikit-learn</span>
-                    <span class="skill">Langchain</span>
-                    <span class="skill">Streamlit</span>
-                    <span class="skill">LLMs</span>
-                    <span class="skill">TensorFlow</span>
-                    <span class="skill">Keras</span>
-                    <span class="skill">Tidyverse</span>
-                    <span class="skill">ggplot2</span>
-                    <span class="skill">LaTeX</span>
-                    <span class="skill">Power BI</span>
-                    <span class="skill">Tableau</span>
-                    <span class="skill">Incorta</span>
-                </div>
+        <section class="intro">
+            <p>Data Scientist.</p>
+            <p>For the past 3 years, I’ve immersed myself in data science, machine learning and artificial intelligence through internships, courses and diverse projects.</p>
+            <p>Passionate about turning data into actionable insights.</p>
+            <div class="social-icons">
+                <p class="contact-apps">Find me on</p>
+                <a href="https://www.linkedin.com/in/ramzy-bakir/" class="social-icons"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/RamzyBakir" class="social-icons"><i class="fab fa-github"></i></a>
+                <a href="https://www.kaggle.com/ramzybakir" class="social-icons"><i class="fa-brands fa-kaggle"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ramzybakir.rsb@gmail.com" class="social-icons"><i class="fa-solid fa-envelope"></i></a>
             </div>
-        </div>
-        <div class="right-column">
+        </section>
+
+        <section class="work-history">
+            <h2>Work History</h2>
+            <ul>
+                <li><strong>Aug 2024 – Sep 2024:</strong> Converged Data Solution Architect Intern @ Orange Egypt</li>
+                <li><strong>Apr 2024 – Present:</strong> RPA Business Automation Developer @ Advansys</li>
+                <li><strong>Sep 2023 – Oct 2023:</strong> Data Analyst / Business Inteligence Intern @ Centro</li>
+                <li><strong>Jul 2023 – Aug 2023:</strong> RPA Business Analyst Intern @ Advansys</li>
+            </ul>
+        </section>
+
+        <section class="projects">
             <h2>Projects</h2>
-            <div class="content">
-            <div class="project">
-                <img src="images/NETM.png" alt="Career Navigator Chatbot" class="project-image">
-                <h3>Unraveling Egypt's Net Migration Patterns: A Time Series Economical and Sociopolitical Analysis</h3>
-                <div class="tags">
-                    <span class="tag">Research Paper</span>
-                    <span class="tag">Python</span>
-                    <span class="tag">Machine Learning</span>
-                    <span class="tag">Data Analysis</span>
-                    <span class="tag">Data Cleaning</span>
-                    <span class="tag">Data Visualization</span>
-                </div>
-                <p>This study investigates Egypt’s net migration patterns from 1965 to 2022 using time series analysis and various regression models. By exploring correlations between net migration and economic indicators such as population, GDP, foreign direct investment, and unemployment, the research aims to uncover the driving forces behind migration trends in Egypt.</p>
-                <a href="https://github.com/RamzyBakir/Unraveling-Egypt-s-Net-Migration-Patterns-A-Time-Series-Economical-and-Sociopolitical-Analysis" class="read-more"><i class="fab fa-github"></i> Github Repo</a>
-            </div>
-            <div class="project">
-                <img src="images/chatbot.png" alt="Career Navigator Chatbot" class="project-image">
-                <h3>Career Navigator Chatbot</h3>
-                <div class="tags">
-                    <span class="tag">Scala</span>
-                    <span class="tag">Python</span>
-                    <span class="tag">Functional programming</span>
-                    <span class="tag">Machine Learning</span>
-                    <span class="tag">Web scrapping</span>
-                    <span class="tag">Web App</span>
-                </div>
-                <p>A career navigation platform with a robust Scala backend and sleek Python frontend, refining the tech job search. Its data-driven chatbot offers personalized advice, while web scraping and API integration fetch the latest LinkedIn job listings, keeping users informed and market-ready.</p>
-                <a href="https://github.com/RamzyBakir/Career-Navigator-Chatbot" class="read-more"><i class="fab fa-github"></i> Github Repo</a>
-            </div>
-            <div class="project">
-                <img src="images/BookPal-AI.png" alt="BookPal-AI" class="project-image">
-                <h3>BookPal-AI</h3>
-                <div class="tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">Streamlit</span>
-                    <span class="tag">Langchain</span>
-                    <span class="tag">HuggingFace</span>
-                    <span class="tag">FAISS</span>
-                </div>
-                <p>BookPal-AI, a Python app, elevates your reading journey using Language Models (LLMs). Engage in natural conversations about your docs (PDFs, CSVs, or plain text). Powered by advanced LLMs like ChatOpenAI or instructor-xl, it offers accurate responses based on your content.</p>
-                <a href="https://github.com/RamzyBakir/BookPal-AI" class="read-more"><i class="fab fa-github"></i> Github Repo</a>
-            </div>
-            <div class="project">
-                <img src="images/360_F_315047223_UlTjR5QrGUpNe0YTnygT3APlClnw4PYO.jpg" alt="Exploring Shark-Human Interactions" class="project-image">
-                <h3>Exploring Shark-Human Interactions in the MENA Region</h3>
-                <div class="tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">Data Analysis</span>
-                    <span class="tag">Visualization</span>
-                    <span class="tag">Manipulation</span>
-                </div>
-                <p>Delving into shark-human interactions in the MENA region, this project utilizes Python and key libraries like NumPy, seaborn, and matplotlib for data analysis and visualization. By examining data from the Global Shark Attack File database, aiming to uncover shark attack trends in the region.</p>
-                <a href="https://github.com/RamzyBakir/Exploring-Shark-Human-Interactions-in-the-MENA-Region" class="read-more"><i class="fab fa-github"></i> Github Repo</a>
-            </div>
-            <div class="project">
-                <img src="images/AMES.png" alt="Ames Housing Price Prediction with Advanced XGBoost Regression" class="project-image">
-                <h3>Ames Housing Price Prediction with Advanced XGBoost Regression</h3>
-                <div class="tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">Machine Learning</span>
-                    <span class="tag">Data Analysis</span>
-                    <span class="tag">Data Visualization</span>
-                </div>
-                <p>Conducted a thorough exploratory data analysis (EDA) employing histograms, scatter plots, box plots, and heat maps to unveil insights. Implemented Ordinal Encoding & One-Hot Encoding techniques for data conversion, leveraging machine learning models, particularly XGBoost, for prediction.</p>
-                <a href="https://github.com/RamzyBakir/Ames-housing-Xgboost" class="read-more"><i class="fab fa-github"></i> Github Repo</a>
-            </div>
-            </div>
-            <footer>
-                <p><small>Designed and created by <a href="https://www.linkedin.com/in/yahia-sonbol/">@Yahia Sonbol</a></small></p>
-            </footer>
-        </div>
+            <ul>
+                <li><a href="https://github.com/RamzyBakir/Unraveling-Egypt-s-Net-Migration-Patterns-A-Time-Series-Economical-and-Sociopolitical-Analysis">Unraveling Egypt's Net Migration Patterns</a> – A Time Series Economical and Sociopolitical Analysis.</li>
+                <li><a href="https://github.com/RamzyBakir/Career-Navigator-Chatbot">Career Navigator Chatbot</a> – Your indispensable companion for navigating the intricate landscape of the tech job market.</li>
+                <li><a href="https://github.com/RamzyBakir/BookPal-AI">BookPal-AI</a> – Your LLM-powered Reading Companion.</li>
+                <li><a href="https://github.com/RamzyBakir/Exploring-Shark-Human-Interactions-in-the-MENA-Region">Exploring Shark-Human Interactions in the MENA Region</a> – EDA project on the Global Shark Attack File within the MENA region.</li>
+                <li><a href="https://github.com/RamzyBakir/Ames-housing-Xgboost">Ames Housing Price Prediction with Advanced XGBoost Regression</a> – My Kaggle House Prices - Advanced Regression Techniques submission.</li>
+
+            </ul>
+        </section>
+
+        <section class="high">
+            <h2>Certifications</h2>
+            <ul>
+                <li><span>May 2024</span> <a href="https://www.coursera.org/account/accomplishments/specialization/E84NBKW4AZHX">IBM Data Science Specialization</a></li>
+                <li><span>March 2024</span> <a href="https://www.coursera.org/account/accomplishments/verify/TJYMFQU7BAJ7">Machine Learning with Python</a></li>
+                <li><span>Nov 2023</span> <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/8e23ba31c32239fb739399314b94116e58050385">Data Camp Associate Data Scientist</a></li>
+                <li><span>Sep 2023</span> <a href="https://www.coursera.org/account/accomplishments/verify/U9CB94JH384R?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course">IBM Data Analysis with R</a></li>
+                <li><span>Sep 2023</span> <a href="https://www.datacamp.com/statement-of-accomplishment/track/0685fa9fa929b8589275c012181ed3793bc809e3?raw=1">Data Camp Data Analysit with Python</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2024 Ramzy Bakir.</p>
+        </footer>
     </div>
 </body>
 </html>
