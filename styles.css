@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #eaeaea;
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: left;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #eaeaea;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #00ff00;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/* Intro Section */
+.intro {
+    margin: 40px 0;
+}
+
+.intro p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+/* Highlights Section */
+.high h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.high ul {
+    list-style: none;
+    padding: 0;
+}
+
+.high ul li {
+    margin-bottom: 15px;
+}
+
+.high ul li span {
+    color: #999;
+    margin-right: 10px;
+}
+
+.high ul li a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.high ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Work History Section */
+.work-history h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.work-history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.work-history ul li {
+    margin-bottom: 15px;
+}
+
+.work-history ul li strong {
+    color: #00ff00;
+}
+
+/* Projects Section */
+.projects h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects ul li {
+    margin-bottom: 15px;
+}
+
+.projects ul li a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.projects ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #999;
+}
