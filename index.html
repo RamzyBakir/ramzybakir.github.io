@@ -16,6 +16,11 @@
                 <a href="#home">Home</a>
                 <a href="Ramzy Bakir Resume.pdf">Résumé</a>
             </nav>
+            <div class="header-icons">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
         </header>
 
         <section class="intro">
@@ -68,6 +73,21 @@
         <footer>
             <p>© 2024 Ramzy Bakir.</p>
         </footer>
+        <script>
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const body = document.body;
+    
+            themeToggleBtn.addEventListener('click', function () {
+                body.classList.toggle('light-mode');
+    
+                // Change the icon depending on the mode
+                if (body.classList.contains('light-mode')) {
+                    themeToggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+                } else {
+                    themeToggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
+                }
+            });
+        </script>
     </div>
 </body>
 </html>
