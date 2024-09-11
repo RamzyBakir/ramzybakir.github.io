@@ -15,16 +15,54 @@ body {
     padding: 20px;
 }
 
+/* Light Mode */
+body.light-mode {
+    background-color: #f8f8f8;
+    color: #1a1a1a;
+}
+
+.light-mode h1,
+.light-mode h2,
+.light-mode nav a,
+.light-mode .high ul li a,
+.light-mode .social-icons,
+.light-mode .work-history h2,
+.light-mode .projects h2,
+.light-mode .high h2,
+.light-mode .projects ul li a {
+    color: #1a1a1a;
+}
+
+.light-mode nav a,
+.light-mode .social-icons a:hover,
+.light-mode .high ul li a,
+.light-mode .high ul li a:hover,
+.light-mode .projects ul li a,
+.light-mode .work-history ul li strong{
+    color: #ff6600;
+}
+.light-mode nav a:hover {
+    color:#00ff00;
+}
+
+.light-mode footer {
+    color: #555;
+}
+
 /* Header */
 header {
     text-align: left;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
     font-size: 36px;
     margin: 0;
     color: #eaeaea;
+    flex-grow: 1;
 }
 
 nav {
@@ -41,6 +79,20 @@ nav a {
 
 nav a:hover {
     color: #ff6600;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #eaeaea;
+    transition: color 0.3s ease;
+}
+
+.light-mode .theme-toggle {
+    color: #1a1a1a;
 }
 
 /* Intro Section */
@@ -61,6 +113,10 @@ nav a:hover {
 
 .social-icons a {
     margin-right: 15px;
+}
+
+.social-icons a:hover {
+    color:#00ff00;
 }
 
 /* Highlights Section */
@@ -141,4 +197,28 @@ footer {
     margin-top: 50px;
     font-size: 14px;
     color: #999;
+}
+
+/* Light Mode Footer */
+.light-mode footer {
+    color: #999;
+}
+
+/* Add this section for light/dark toggle icon positioning */
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle, .search-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #eaeaea;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.theme-toggle i, .search-icon i {
+    transition: color 0.3s ease;
 }
