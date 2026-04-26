@@ -1,92 +1,230 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramzy Bakir</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Ramzy Bakir</h1>
-            <nav>
-                <a href="#home">Home</a>
-                <a href="Ramzy Bakir Resume.pdf">Résumé</a>
-            </nav>
-            <div class="header-icons">
-                <button id="theme-toggle" class="theme-toggle">
-                    <i class="fas fa-moon"></i>
-                </button>
-            </div>
-        </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ramzy Bakir</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+    </head>
+    <body>
+        <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle theme"
+        >
+            <i class="fas fa-moon"></i>
+        </button>
 
-        <section class="intro">
-            <p>Data Scientist.</p>
-            <p>For the past 3 years, I’ve immersed myself in data science, machine learning and artificial intelligence through internships, courses and diverse projects.</p>
-            <p>Passionate about turning data into actionable insights.</p>
-            <div class="social-icons">
-                <p class="contact-apps">Find me on</p>
-                <a href="https://www.linkedin.com/in/ramzy-bakir/" class="social-icons"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/RamzyBakir" class="social-icons"><i class="fab fa-github"></i></a>
-                <a href="https://www.kaggle.com/ramzybakir" class="social-icons"><i class="fa-brands fa-kaggle"></i></a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ramzybakir.rsb@gmail.com" class="social-icons"><i class="fa-solid fa-envelope"></i></a>
-            </div>
+        <section class="banner">
+            <img
+                src="images/cairo-banner.png"
+                alt="Cairo skyline"
+                class="banner-img"
+            />
         </section>
 
-        <section class="work-history">
-            <h2>Work History</h2>
-            <ul>
-                <li><strong>Aug 2024 – Sep 2024:</strong> Converged Data Solution Architect Intern @ Orange Egypt</li>
-                <li><strong>Sep 2023 – Oct 2023:</strong> Data Analyst / Business Inteligence Intern @ Centro</li>
-                <li><strong>Jul 2023 – Aug 2023:</strong> RPA Business Analyst Intern @ Advansys</li>
-            </ul>
-        </section>
+        <div class="container">
+            <section class="name-section">
+                <h1>Ramzy Bakir</h1>
+                <p class="tagline">
+                    Data Scientist turning data into actionable insights.
+                </p>
+            </section>
 
-        <section class="projects">
-            <h2>Projects & Papers</h2>
-            <ul>
-                <li><a href="https://github.com/RamzyBakir/roberta-aegyptustranslit-classifier">roberta-aegyptustranslit-classifier</a> – Classification of Ancient Egyptian transliterations into their respective historical periods.</li>
-                <li><a href="https://huggingface.co/RamzyBakir/AegyptusTranslit1-gpt2-17M">AegyptusTranslit-GPT2-17M</a> – GPT-2 based language model trained from scratch on transliterations of Ancient Egyptian texts.</li>
-                <li><a href="https://www.kaggle.com/code/ramzybakir/syra-revolutionize-your-hiring-process">SYRA-AI</a> – A Resume Screening Platform Powered by Gemini 1.5</li>
-                <li><a href="https://github.com/RamzyBakir/Unraveling-Egypt-s-Net-Migration-Patterns-A-Time-Series-Economical-and-Sociopolitical-Analysis">Unraveling Egypt's Net Migration Patterns</a> – A Time Series Economical and Sociopolitical Analysis.</li>
-                <li><a href="https://github.com/RamzyBakir/Career-Navigator-Chatbot">Career Navigator Chatbot</a> – Your indispensable companion for navigating the intricate landscape of the tech job market.</li>
-            </ul>
-        </section>
+            <section class="summary">
+                <p>
+                    For the past 3 years, I've immersed myself in data science,
+                    machine learning and artificial intelligence through
+                    internships, courses and diverse projects. Passionate about
+                    turning data into actionable insights.
+                </p>
+            </section>
 
-        <section class="high">
-            <h2>Certifications & Courses</h2>
-            <ul>
-                <li><span>Sep 2024</span> <a href="https://coursera.org/share/cef7a007c70b95cc33c792e91b0f2ef7">Duke University Open Source LLMOps Solutions</a></li>
-                <li><span>Sep 2024</span> <a href="https://credentials.uipath.com/3487053c-d91f-4400-9b94-d842f3a08384#gs.ey5jfb">UiPath Academy Automation Business Analyst</a></li>
-                <li><span>May 2024</span> <a href="https://www.coursera.org/account/accomplishments/specialization/E84NBKW4AZHX">IBM Data Science Specialization</a></li>
-                <li><span>March 2024</span> <a href="https://www.coursera.org/account/accomplishments/verify/TJYMFQU7BAJ7">IBM Machine Learning with Python</a></li>
-                <li><span>Nov 2023</span> <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/8e23ba31c32239fb739399314b94116e58050385">Data Camp Associate Data Scientist</a></li>
-                <li><span>Sep 2023</span> <a href="https://www.coursera.org/account/accomplishments/verify/U9CB94JH384R?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course">IBM Data Analysis with R</a></li>
-                <li><span>Sep 2023</span> <a href="https://www.datacamp.com/statement-of-accomplishment/track/0685fa9fa929b8589275c012181ed3793bc809e3?raw=1">Data Camp Data Analyst with Python</a></li>
-            </ul>
-        </section>
+            <section class="find-me">
+                <p class="find-me-label">Find me on</p>
+                <div class="social-links">
+                    <a
+                        href="https://www.linkedin.com/in/ramzy-bakir/"
+                        class="social-link social-linkedin"
+                        ><i class="fab fa-linkedin"></i
+                    ></a>
+                    <a href="https://github.com/RamzyBakir" class="social-link social-github"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                    <a
+                        href="https://www.kaggle.com/ramzybakir"
+                        class="social-link social-kaggle"
+                        ><i class="fa-brands fa-kaggle"></i
+                    ></a>
+                    <a
+                        href="https://huggingface.co/RamzyBakir"
+                        class="social-link social-hf"
+                        ><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace" class="hf-logo"
+                    ></a>
+                </div>
+            </section>
 
-        <footer>
-            <p>© 2024 Ramzy Bakir.</p>
-        </footer>
+            <section class="projects">
+                <h2>Featured Projects</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://github.com/RamzyBakir/roberta-aegyptustranslit-classifier"
+                            >roberta-aegyptustranslit-classifier</a
+                        >
+                        – Classification of Ancient Egyptian transliterations
+                        into their respective historical periods.
+                    </li>
+                    <li>
+                        <a
+                            href="https://huggingface.co/RamzyBakir/AegyptusTranslit1-gpt2-17M"
+                            >AegyptusTranslit-GPT2-17M</a
+                        >
+                        – GPT-2 based language model trained from scratch on
+                        transliterations of Ancient Egyptian texts.
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.kaggle.com/code/ramzybakir/syra-revolutionize-your-hiring-process"
+                            >SYRA-AI</a
+                        >
+                        – A Resume Screening Platform Powered by Gemini 1.5.
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/RamzyBakir/Unraveling-Egypt-s-Net-Migration-Patterns-A-Time-Series-Economical-and-Sociopolitical-Analysis"
+                            >Unraveling Egypt's Net Migration Patterns</a
+                        >
+                        – A Time Series Economical and Sociopolitical Analysis.
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/RamzyBakir/Career-Navigator-Chatbot"
+                            >Career Navigator Chatbot</a
+                        >
+                        – Your indispensable companion for navigating the
+                        intricate landscape of the tech job market.
+                    </li>
+                </ul>
+            </section>
+
+            <section class="work">
+                <h2>Work</h2>
+                <p class="current-role">
+                    Currently working as a <strong>Placeholder Title</strong> at
+                    <strong>Placeholder Company</strong> &mdash; a brief
+                    description of what this role entails will go here.
+                </p>
+                <ul class="work-list">
+                    <li>
+                        <span class="work-date">Aug 2024 – Sep 2024</span>
+                        <strong
+                            >Converged Data Solution Architect Intern</strong
+                        >
+                        @ Orange Egypt
+                    </li>
+                    <li>
+                        <span class="work-date">Sep 2023 – Oct 2023</span>
+                        <strong>Data Analyst / BI Intern</strong> @ Centro
+                    </li>
+                    <li>
+                        <span class="work-date">Jul 2023 – Aug 2023</span>
+                        <strong>RPA Business Analyst Intern</strong> @ Advansys
+                    </li>
+                </ul>
+            </section>
+
+            <section class="certifications">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>
+                        <span>Sep 2024</span>
+                        <a
+                            href="https://coursera.org/share/cef7a007c70b95cc33c792e91b0f2ef7"
+                            >Duke University Open Source LLMOps Solutions</a
+                        >
+                    </li>
+                    <li>
+                        <span>Sep 2024</span>
+                        <a
+                            href="https://credentials.uipath.com/3487053c-d91f-4400-9b94-d842f3a08384#gs.ey5jfb"
+                            >UiPath Academy Automation Business Analyst</a
+                        >
+                    </li>
+                    <li>
+                        <span>May 2024</span>
+                        <a
+                            href="https://www.coursera.org/account/accomplishments/specialization/E84NBKW4AZHX"
+                            >IBM Data Science Specialization</a
+                        >
+                    </li>
+                    <li>
+                        <span>Mar 2024</span>
+                        <a
+                            href="https://www.coursera.org/account/accomplishments/verify/TJYMFQU7BAJ7"
+                            >IBM Machine Learning with Python</a
+                        >
+                    </li>
+                    <li>
+                        <span>Nov 2023</span>
+                        <a
+                            href="https://www.datacamp.com/completed/statement-of-accomplishment/track/8e23ba31c32239fb739399314b94116e58050385"
+                            >DataCamp Associate Data Scientist</a
+                        >
+                    </li>
+                    <li>
+                        <span>Sep 2023</span>
+                        <a
+                            href="https://www.coursera.org/account/accomplishments/verify/U9CB94JH384R?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course"
+                            >IBM Data Analysis with R</a
+                        >
+                    </li>
+                    <li>
+                        <span>Sep 2023</span>
+                        <a
+                            href="https://www.datacamp.com/statement-of-accomplishment/track/0685fa9fa929b8589275c012181ed3793bc809e3?raw=1"
+                            >DataCamp Data Analyst with Python</a
+                        >
+                    </li>
+                </ul>
+            </section>
+
+            <section class="download-cv">
+                <a href="Ramzy Bakir Resume.pdf" class="cv-link">
+                    <span>Download my CV</span>
+                    <i class="fas fa-arrow-right"></i>
+                    <i class="fa-solid fa-file-lines"></i>
+                </a>
+                <div class="email-row">
+                    <a href="mailto:ramzybakir.rsb@gmail.com" class="email-link">ramzybakir.rsb@gmail.com</a>
+                </div>
+            </section>
+
+            <footer>
+                <p>&copy; 2024 Ramzy Bakir.</p>
+            </footer>
+        </div>
+
         <script>
-            const themeToggleBtn = document.getElementById('theme-toggle');
+            const themeToggleBtn = document.getElementById("theme-toggle");
             const body = document.body;
-    
-            themeToggleBtn.addEventListener('click', function () {
-                body.classList.toggle('light-mode');
-    
-                // Change the icon depending on the mode
-                if (body.classList.contains('light-mode')) {
+
+            themeToggleBtn.addEventListener("click", function () {
+                body.classList.toggle("dark-mode");
+                if (body.classList.contains("dark-mode")) {
                     themeToggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
                 } else {
                     themeToggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
                 }
             });
         </script>
-    </div>
-</body>
+    </body>
 </html>
