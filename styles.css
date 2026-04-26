@@ -10,6 +10,7 @@ body {
     font-family: 'Fira Code', monospace;
     font-size: 16px;
     line-height: 1.6;
+    padding-top: 40px;
     transition: background-color 0.4s ease, color 0.4s ease;
 }
 
@@ -95,9 +96,13 @@ body.dark-mode {
 }
 
 .tagline {
+    display: inline-block;
     font-size: 18px;
     color: #c0583e;
-    margin-top: 4px;
+    margin-top: 8px;
+    padding: 5px 14px;
+    border: 1px solid #c0583e;
+    border-radius: 2px;
 }
 
 .summary {

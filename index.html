@@ -15,6 +15,71 @@
         />
     </head>
     <body>
+        <style>
+            .header-wrapper {
+                display: flex;
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                font-size: 0.85rem;
+                line-height: 1.25rem;
+                height: 40px;
+                background-color: #1e7748;
+                color: #fff;
+                z-index: 999;
+            }
+            .header-left {
+                display: none;
+                margin-right: 0.25rem;
+                color: #ffffff;
+            }
+            .header-right {
+                color: #fff;
+                text-decoration: none;
+                margin-left: 4px;
+            }
+            .header-right:hover {
+                text-decoration: underline;
+            }
+            .header-right-flag {
+                display: inline;
+                margin-right: 0.25rem;
+                color: #ffffff;
+            }
+
+            @media (min-width: 640px) {
+                .header-wrapper {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    flex-direction: row;
+                    font-size: 1.125rem;
+                    line-height: 1.75rem;
+                    height: 40px;
+                }
+                .header-left {
+                    display: block;
+                }
+                .header-right-flag {
+                    display: none;
+                }
+            }
+        </style>
+
+        <div class="header-wrapper">
+            <div class="header-left">Free Palestine 🇵🇸</div>
+            <a href="https://freepalestine.dev" target="_blank" rel="noopener" class="header-right">
+                <div class="header-right-flag">🇵🇸</div>
+                Help Spread Awareness for Palestine.
+            </a>
+        </div>
+
         <button
             id="theme-toggle"
             class="theme-toggle"
